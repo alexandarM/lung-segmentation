@@ -2,6 +2,18 @@
 
 Deep learning project for automatic lung segmentation from chest X-ray images using Mask R-CNN with ResNet50-FPN backbone.
 
+## Live Demo
+
+**Want to try the model without installing anything?**
+
+**[Try it now on Hugging Face Space](https://huggingface.co/spaces/lxndr1337/segmentacija_pluca)** 
+
+Upload your chest X-ray image and get instant lung segmentation results!
+
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/lxndr1337/segmentacija_pluca)
+
+> **Note**: The Space may take 10-15 seconds to wake up if it's been inactive. This is normal behavior for free tier Spaces.
+
 ## Project Structure
 
 ```
@@ -103,11 +115,20 @@ The model is evaluated on validation set with the following metrics:
 - Early stopping based on Dice improvement
 - Comprehensive visualization of predictions vs ground truth
 
-## License
-
-MIT License
-
 ## Acknowledgments
 
 - PyTorch and torchvision for deep learning framework
 - Mask R-CNN implementation from torchvision
+- Hugging Face Space for hosting the demo application
+
+### Hugging Face Space
+
+The model is deployed as an interactive Gradio application on Hugging Face Spaces:
+- **Live Demo**: https://huggingface.co/spaces/lxndr1337/segmentacija_pluca
+- **Framework**: Gradio
+- **Backend**: Python with PyTorch
+- **Features**: Real-time lung segmentation with visualization
+
+## License
+
+MIT License
